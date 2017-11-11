@@ -8,8 +8,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var core_1 = require("@angular/core");
 var ExampleComponent = (function () {
     function ExampleComponent() {
-        this.example = { id: 1, name: 'KITTUUUUUUUUU' };
-        this.color = 'blue';
     }
     return ExampleComponent;
 }());
@@ -17,7 +15,7 @@ ExampleComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
         selector: 'my-example',
-        template: "\n   <h3 [innerText]=\"example.name\"></h3>\n   <a [href]=\"example.link\">{{example.linktitle}}</a>\n "
+        templateUrl: 'test.html'
     })
 ], ExampleComponent);
 exports.ExampleComponent = ExampleComponent;
